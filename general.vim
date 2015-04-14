@@ -26,3 +26,5 @@ set shiftwidth=4
 set smarttab
 
 set laststatus=2
+
+autocmd BufNewFile * silent! 0r $HOME/.vim/templates/%:e.tpl
